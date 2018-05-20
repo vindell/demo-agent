@@ -10,12 +10,12 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <dependency>
-        <groupId>javassist</groupId>
-        <artifactId>javassist</artifactId>
-        <version>3.12.1.GA</version>
-        <type>jar</type>
-    </dependency>
+         <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.22.0-GA</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 
     <build>
@@ -35,7 +35,7 @@
                 <configuration>
                     <artifactSet>
                         <includes>
-                            <include>javassist:javassist:jar:</include>
+                            <include>org.javassist:javassist:jar:</include>
                         </includes>
                     </artifactSet>
                 </configuration>
